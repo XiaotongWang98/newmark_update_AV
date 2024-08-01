@@ -1,1 +1,29 @@
+在VPC中安装库的教程，这里是安装pandas和numpy
 
+1. 添加Scripts目录到系统环境变量Path
+找到Scripts目录：
+例如，如果Python安装目录是C:\Users\YourUsername\AppData\Local\Programs\Python\Python39，那么Scripts目录通常是C:\Users\YourUsername\AppData\Local\Programs\Python\Python39\Scripts。
+
+添加路径到系统环境变量：
+
+在Windows上：
+右键点击“此电脑”或“计算机”，选择“属性”。
+点击“高级系统设置”，然后点击“环境变量”。
+在“系统变量”部分，找到Path，并点击“编辑”。
+点击“新建”并粘贴Scripts目录的路径。例如：C:\Users\YourUsername\AppData\Local\Programs\Python\Python39\Scripts
+点击“确定”保存所有设置。
+验证设置：
+
+关闭所有打开的命令行窗口，然后重新打开一个新的命令行窗口。
+输入以下命令，验证pip是否正常工作：
+pip --version
+
+2. pip正常工作后，命令行进入whl文件目录
+
+3. 按顺序运行
+pip install tzdata-2024.1-py2.py3-none-any.whl
+pip install six-1.16.0-py2.py3-none-any.whl
+pip install pytz-2024.1-py2.py3-none-any.whl
+pip install python_dateutil-2.9.0.post0-py2.py3-none-any.whl
+pip install pandas-2.2.2-cp312-cp312-win_amd64.whl
+pip install numpy-2.0.1-cp312-cp312-win_amd64.whl
