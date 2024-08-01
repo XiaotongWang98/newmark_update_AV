@@ -4,14 +4,8 @@
 
 ## Prerequisites
 
-- Python 3.x
 - pandas
 
-To install the required `pandas` library, you can use the following command:
-
-```bash
-pip install pandas
-```
 
 ## Usage
 
